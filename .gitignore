@@ -5,3 +5,9 @@
 /Account.Manager/obj
 /.vs/Account.Manager/v16
 /Account.Manager/bin/Debug/netcoreapp3.1
+/Account.Manager.Repository/bin/Debug/netstandard2.1
+/Account.Manager.Repository/obj
+/Account.Manager.SDK/bin/Debug/netstandard2.1
+/Account.Manager.SDK/obj
+/Account.Manager.Service/bin/Debug/netstandard2.1
+/Account.Manager.Service/obj

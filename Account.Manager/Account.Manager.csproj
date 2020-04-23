@@ -8,5 +8,10 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Account.Manager.SDK\Account.Manager.SDK.csproj" />
+    <ProjectReference Include="..\Account.Manager.Service\Account.Manager.Service.csproj" />
+  </ItemGroup>
+
 
 </Project>
