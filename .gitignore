@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Account.Manager/obj
+/.vs/Account.Manager/v16
+/Account.Manager/bin/Debug/netcoreapp3.1
