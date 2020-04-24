@@ -35,11 +35,11 @@ namespace Account.Manager.Test.Base
             builder.RegisterType<CompanyRepository>().As<ICompanyRepository>().InstancePerLifetimeScope();
             builder.RegisterType<UserRepository>().As<IUserRepository>().InstancePerLifetimeScope();
             builder.RegisterType<UserProfileRepository>().As<IUserProfileRepository>().InstancePerLifetimeScope();
+            builder.RegisterType<UserProfileRoleRepository>().As<IUserProfileRoleRepository>().InstancePerLifetimeScope();
+
             builder.RegisterType<EnvironmentProvider>().As<IEnvironmentProvider>().InstancePerLifetimeScope();
             builder.RegisterType<RequestContext>().As<IRequestContext>().InstancePerLifetimeScope();
-            builder.RegisterType<UserProfileRoleRepository>().As<IUserProfileRoleRepository>().InstancePerLifetimeScope();
             builder.RegisterType<EmailHashRepository>().As<IEmailHashRepository>().InstancePerLifetimeScope();
-
             builder.RegisterType<Md5PasswordEncrypt>().As<IPasswordEncrypt>().InstancePerLifetimeScope();
             builder.RegisterType<CodeGenerator>().As<ICodeGenerator>().InstancePerLifetimeScope();
 

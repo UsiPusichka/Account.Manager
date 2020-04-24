@@ -4,7 +4,6 @@ using Account.Manager.SDK.Models.Auth;
 using System;
 using System.Collections.Generic;
 using System.Security.Claims;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Account.Manager.Service.Concrete.Base
@@ -13,11 +12,8 @@ namespace Account.Manager.Service.Concrete.Base
     {
         protected readonly ITokenRepository _tokenRepository;
 
-        public BaseAuthService(
-            ITokenRepository tokenRepository)
-        {
+        public BaseAuthService(ITokenRepository tokenRepository) =>
             _tokenRepository = tokenRepository;
-        }
 
         /// <summary>
         /// Generate, save and return token to user profile
