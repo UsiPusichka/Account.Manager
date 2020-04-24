@@ -11,3 +11,5 @@
 /Account.Manager.SDK/obj
 /Account.Manager.Service/bin/Debug/netstandard2.1
 /Account.Manager.Service/obj
+/Account.Manager.Test/bin/Debug/netcoreapp3.1
+/Account.Manager.Test/obj
